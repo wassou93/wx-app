@@ -1,0 +1,25 @@
+# Build directory (CMake out-of-source build)
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Executables
+app
+*.out
+
+# IDE / editor stuff
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+
+# Backup files
+*~
+*.swp
+*.swo
