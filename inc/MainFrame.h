@@ -7,6 +7,5 @@ public:
     MyFrame();
 
 private:
-    wxTextCtrl* text;
-    void OnButtonClicked(wxCommandEvent& event);
+
 };
