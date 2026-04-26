@@ -18,13 +18,13 @@ paru -S wxwidgets-gtk3 cmake gcc
 
 This generates a proper build directory and `compile_commands.json` for clangd:
 
-```bash
+```bash id="gtk"
 cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 ```
 
 If you want to build with QT backend instead:
 
-```bash
+```bash id="qt5"
 cmake -S . -B build   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON   -DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config-qt
 ```
 
