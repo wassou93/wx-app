@@ -22,6 +22,12 @@ This generates a proper build directory and `compile_commands.json` for clangd:
 cmake -S . -B build -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 ```
 
+If you want to build with QT backend instead:
+
+```bash
+cmake -S . -B build   -DCMAKE_EXPORT_COMPILE_COMMANDS=ON   -DwxWidgets_CONFIG_EXECUTABLE=/usr/bin/wx-config-qt
+```
+
 ---
 
 ## 🛠️ Build
